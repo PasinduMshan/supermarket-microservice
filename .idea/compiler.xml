@@ -10,6 +10,11 @@
         <module name="product-service" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Inventory-service" target="17" />
+      <module name="Inventory-service.main" target="17" />
+      <module name="Inventory-service.test" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
